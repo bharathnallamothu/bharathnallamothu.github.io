@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="BN">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13213a" />
+      <stop offset="100%" stop-color="#1f446c" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44d9e6" />
+      <stop offset="100%" stop-color="#ff7a59" />
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="32" fill="url(#bg)" />
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="none" stroke="url(#ring)" stroke-width="4" />
+  <text
+    x="64"
+    y="74"
+    text-anchor="middle"
+    fill="#fff9f2"
+    font-family="'Space Grotesk', 'Trebuchet MS', sans-serif"
+    font-size="40"
+    font-weight="700"
+    letter-spacing="8"
+  >
+    BN
+  </text>
+</svg>
